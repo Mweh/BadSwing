@@ -1,0 +1,49 @@
+# Xcode
+build/
+DerivedData/
+*.xcworkspace
+!default.xcworkspace
+*.xcuserdata/
+*.xcuserstate
+
+# Swift Package Manager
+.swiftpm/
+.build/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# Archives
+*.xcarchive
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# Environment / Secrets
+.env
+*.key
+*.p12
+*.mobileprovision
+
+# Temporary files
+*.swp
+*.tmp
+
+# Firebase
+GoogleService-Info.plist
+
+# App-specific
+*.ipa
